@@ -1,0 +1,405 @@
+<!doctype html>
+<html lang="lt">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="robots" content="index,follow" />
+  <title>Rally Estonia / Vellavere · WRC rezultatai</title>
+  <style>
+    :root{
+      color-scheme: dark;
+      --bg: #090b0f;
+      --panel: #121821;
+      --panel-2: #18202b;
+      --line: rgba(255,255,255,.12);
+      --text: #f6f7f9;
+      --muted: rgba(246,247,249,.68);
+      --soft: rgba(246,247,249,.48);
+      --accent: #f28b28;
+      --accent-2: #45c7d8;
+      --good: #77d66b;
+      --bad: #ff6b5f;
+    }
+    *{ box-sizing: border-box; }
+    html, body{ margin: 0; min-height: 100%; background: var(--bg); color: var(--text); }
+    body{
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      line-height: 1.35;
+    }
+    .page{
+      min-height: 100vh;
+      padding: clamp(14px, 3vw, 34px);
+      background:
+        linear-gradient(180deg, rgba(242,139,40,.16), transparent 280px),
+        linear-gradient(135deg, rgba(69,199,216,.08), transparent 42%),
+        var(--bg);
+    }
+    .wrap{ width: min(1180px, 100%); margin: 0 auto; }
+    .top{
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) auto;
+      gap: 16px;
+      align-items: end;
+      padding-bottom: 18px;
+      border-bottom: 1px solid var(--line);
+    }
+    h1{
+      margin: 0;
+      font-size: clamp(28px, 5vw, 56px);
+      line-height: .98;
+      letter-spacing: 0;
+    }
+    .subtitle{
+      margin-top: 10px;
+      color: var(--muted);
+      font-size: clamp(14px, 2vw, 19px);
+      font-weight: 650;
+    }
+    .meta{
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-top: 14px;
+    }
+    .pill{
+      display: inline-flex;
+      gap: 7px;
+      align-items: baseline;
+      min-height: 30px;
+      padding: 6px 10px;
+      border: 1px solid var(--line);
+      border-radius: 7px;
+      background: rgba(255,255,255,.055);
+      color: var(--text);
+      font-weight: 800;
+    }
+    .pill span{ color: var(--soft); font-weight: 700; font-size: 12px; text-transform: uppercase; }
+    .stamp{
+      text-align: right;
+      color: var(--muted);
+      font-size: 13px;
+      white-space: nowrap;
+    }
+    .stamp strong{ display: block; color: var(--text); font-size: 18px; }
+    .board{
+      margin-top: 20px;
+      overflow: hidden;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: linear-gradient(180deg, rgba(255,255,255,.045), rgba(255,255,255,.018)), var(--panel);
+      box-shadow: 0 24px 80px rgba(0,0,0,.36);
+    }
+    table{ width: 100%; border-collapse: collapse; table-layout: fixed; }
+    thead th{
+      padding: 13px 14px;
+      background: rgba(255,255,255,.07);
+      color: var(--muted);
+      font-size: 12px;
+      letter-spacing: .08em;
+      text-transform: uppercase;
+      text-align: left;
+      border-bottom: 1px solid var(--line);
+    }
+    tbody td{
+      padding: 13px 14px;
+      border-bottom: 1px solid rgba(255,255,255,.075);
+      font-size: clamp(14px, 2vw, 18px);
+      font-weight: 760;
+      vertical-align: middle;
+    }
+    tbody tr:nth-child(even){ background: rgba(255,255,255,.028); }
+    tbody tr:last-child td{ border-bottom: 0; }
+    .rank{ width: 72px; color: var(--accent); text-align: center; font-size: 20px; }
+    .nick{ width: 36%; }
+    .time{ width: 170px; font-variant-numeric: tabular-nums; color: #fff; }
+    .gap{ width: 150px; color: var(--accent-2); font-variant-numeric: tabular-nums; }
+    .gap-lead{ width: 150px; color: var(--accent); font-variant-numeric: tabular-nums; }
+    .status{ width: 110px; color: var(--muted); }
+    .muted{ color: var(--muted); }
+    .memorial{ color: var(--soft); text-decoration: line-through; }
+    .badge{
+      display: inline-flex;
+      margin-left: 8px;
+      padding: 3px 6px;
+      border-radius: 5px;
+      border: 1px solid rgba(255,255,255,.14);
+      color: var(--soft);
+      font-size: 10px;
+      text-decoration: none;
+      vertical-align: middle;
+    }
+    .empty{
+      padding: 42px 18px;
+      text-align: center;
+      color: var(--muted);
+      font-weight: 750;
+    }
+    .foot{
+      display: flex;
+      justify-content: space-between;
+      gap: 12px;
+      margin-top: 14px;
+      color: var(--soft);
+      font-size: 12px;
+    }
+    @media (max-width: 760px){
+      .top{ grid-template-columns: 1fr; align-items: start; }
+      .stamp{ text-align: left; white-space: normal; }
+      .board{ overflow-x: auto; }
+      table{ min-width: 720px; }
+      thead th, tbody td{ padding: 11px 10px; }
+    }
+  </style>
+</head>
+<body>
+  <main class="page">
+    <div class="wrap">
+      <header class="top">
+        <div>
+          <h1>Rally Estonia / Vellavere</h1>
+          <div class="subtitle">Junior WRC · DRY</div>
+          <div class="meta" aria-label="Trasos informacija">
+            <span class="pill"><span>Sezonas</span>2026</span>
+            <span class="pill"><span>Klasė</span>Junior WRC</span>
+            <span class="pill"><span>Rekordas</span>Vycka 1 · 3.04.713</span>
+            <span class="pill"><span>Įrašų</span>16/17</span>
+          </div>
+        </div>
+        <div class="stamp">
+          <strong>Atnaujinta</strong>
+          2026-06-12 14:33:06 EEST
+        </div>
+      </header>
+
+      <section class="board" aria-label="Rezultatų lentelė">
+        
+        <table>
+          <thead>
+            <tr>
+              <th class="rank">#</th>
+              <th class="nick">Vairuotojas</th>
+              <th class="time">Laikas</th>
+              <th class="gap">Δ prieš</th>
+              <th class="gap-lead">Δ lyderiui</th>
+              <th class="status">Būsena</th>
+            </tr>
+          </thead>
+          <tbody>
+            
+            <tr>
+              <td class="rank">1</td>
+              <td class="nick">
+                Vycka 1
+                
+              </td>
+              <td class="time">3.04.713</td>
+              <td class="gap">—</td>
+              <td class="gap-lead">—</td>
+              <td class="status">OK</td>
+            </tr>
+            
+            <tr>
+              <td class="rank">2</td>
+              <td class="nick">
+                Vycka 3
+                
+              </td>
+              <td class="time">3.06.369</td>
+              <td class="gap">+1.656</td>
+              <td class="gap-lead">+1.656</td>
+              <td class="status">OK</td>
+            </tr>
+            
+            <tr>
+              <td class="rank">3</td>
+              <td class="nick">
+                Arte
+                
+              </td>
+              <td class="time">3.08.558</td>
+              <td class="gap">+2.189</td>
+              <td class="gap-lead">+3.845</td>
+              <td class="status">OK</td>
+            </tr>
+            
+            <tr>
+              <td class="rank">4</td>
+              <td class="nick">
+                Aivaras
+                
+              </td>
+              <td class="time">3.09.790</td>
+              <td class="gap">+1.232</td>
+              <td class="gap-lead">+5.077</td>
+              <td class="status">OK</td>
+            </tr>
+            
+            <tr>
+              <td class="rank">5</td>
+              <td class="nick">
+                Vycka2
+                
+              </td>
+              <td class="time">3.18.205</td>
+              <td class="gap">+8.415</td>
+              <td class="gap-lead">+13.49</td>
+              <td class="status">OK</td>
+            </tr>
+            
+            <tr>
+              <td class="rank">—</td>
+              <td class="nick memorial">
+                Ernestas
+                <span class="badge">ATMINIMUI</span>
+              </td>
+              <td class="time">3.34.554</td>
+              <td class="gap">—</td>
+              <td class="gap-lead">—</td>
+              <td class="status">MEMORIAL</td>
+            </tr>
+            
+            <tr>
+              <td class="rank">6</td>
+              <td class="nick">
+                Linas
+                
+              </td>
+              <td class="time">3.24.860</td>
+              <td class="gap">+6.655</td>
+              <td class="gap-lead">+20.15</td>
+              <td class="status">OK</td>
+            </tr>
+            
+            <tr>
+              <td class="rank">7</td>
+              <td class="nick">
+                Paulius
+                
+              </td>
+              <td class="time">3.26.549</td>
+              <td class="gap">+1.689</td>
+              <td class="gap-lead">+21.84</td>
+              <td class="status">OK</td>
+            </tr>
+            
+            <tr>
+              <td class="rank">8</td>
+              <td class="nick">
+                Alfa
+                
+              </td>
+              <td class="time">3.35.162</td>
+              <td class="gap">+8.613</td>
+              <td class="gap-lead">+30.45</td>
+              <td class="status">OK</td>
+            </tr>
+            
+            <tr>
+              <td class="rank">9</td>
+              <td class="nick">
+                Matas
+                
+              </td>
+              <td class="time">3.47.101</td>
+              <td class="gap">+11.94</td>
+              <td class="gap-lead">+42.39</td>
+              <td class="status">OK</td>
+            </tr>
+            
+            <tr>
+              <td class="rank">10</td>
+              <td class="nick">
+                Arnoldas
+                
+              </td>
+              <td class="time">3.49.224</td>
+              <td class="gap">+2.123</td>
+              <td class="gap-lead">+44.51</td>
+              <td class="status">OK</td>
+            </tr>
+            
+            <tr>
+              <td class="rank">11</td>
+              <td class="nick">
+                Bakas
+                
+              </td>
+              <td class="time">3.59.308</td>
+              <td class="gap">+10.08</td>
+              <td class="gap-lead">+54.59</td>
+              <td class="status">OK</td>
+            </tr>
+            
+            <tr>
+              <td class="rank">12</td>
+              <td class="nick">
+                Rencius
+                
+              </td>
+              <td class="time">4.07.807</td>
+              <td class="gap">+8.499</td>
+              <td class="gap-lead">+1:03.1</td>
+              <td class="status">OK</td>
+            </tr>
+            
+            <tr>
+              <td class="rank">13</td>
+              <td class="nick">
+                Domas
+                
+              </td>
+              <td class="time">4.10.320</td>
+              <td class="gap">+2.513</td>
+              <td class="gap-lead">+1:05.6</td>
+              <td class="status">OK</td>
+            </tr>
+            
+            <tr>
+              <td class="rank">14</td>
+              <td class="nick">
+                Žibas
+                
+              </td>
+              <td class="time">4.10.693</td>
+              <td class="gap">+0.373</td>
+              <td class="gap-lead">+1:06.0</td>
+              <td class="status">OK</td>
+            </tr>
+            
+            <tr>
+              <td class="rank">15</td>
+              <td class="nick">
+                Korne
+                
+              </td>
+              <td class="time">5.00.078</td>
+              <td class="gap">+49.38</td>
+              <td class="gap-lead">+1:55.4</td>
+              <td class="status">OK</td>
+            </tr>
+            
+            <tr>
+              <td class="rank">16</td>
+              <td class="nick">
+                Edga
+                
+              </td>
+              <td class="time">5.12.506</td>
+              <td class="gap">+12.43</td>
+              <td class="gap-lead">+2:07.8</td>
+              <td class="status">OK</td>
+            </tr>
+            
+          </tbody>
+        </table>
+        
+      </section>
+
+      <footer class="foot">
+        <span>Garažo scoreboardas · v3.0</span>
+        <span>Public snapshot · 2026-06-12T11:33:06Z</span>
+      </footer>
+    </div>
+  </main>
+</body>
+</html>
