@@ -1,8 +1,8 @@
 {
   "app": "Garažo scoreboardas",
   "version": "v3.0",
-  "generated_at": "2026-06-29T22:25:04Z",
-  "updated_local": "2026-06-30 01:25:04 EEST",
+  "generated_at": "2026-06-29T22:25:17Z",
+  "updated_local": "2026-06-30 01:25:17 EEST",
   "season_year": 2026,
   "track_id": 254,
   "title": "Secto Rally Finland / Saakoski",
@@ -56,7 +56,7 @@
     },
     {
       "rank": 4,
-      "nick": "Vycka3",
+      "nick": "Vycka 3",
       "time": "3.01.553",
       "gap_prev": "+31.94",
       "gap_leader": "+45.11",
