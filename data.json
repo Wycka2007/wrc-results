@@ -1,8 +1,8 @@
 {
   "app": "Garažo scoreboardas",
   "version": "v3.0",
-  "generated_at": "2026-06-29T22:24:49Z",
-  "updated_local": "2026-06-30 01:24:49 EEST",
+  "generated_at": "2026-06-29T22:24:55Z",
+  "updated_local": "2026-06-30 01:24:55 EEST",
   "season_year": 2026,
   "track_id": 254,
   "title": "Secto Rally Finland / Saakoski",
@@ -13,8 +13,8 @@
   "condition": "DRY",
   "record_nick": "Vycka1",
   "record_time": "2.16.445",
-  "ok_rows": 6,
-  "all_rows": 6,
+  "ok_rows": 5,
+  "all_rows": 5,
   "tournament_mode": false,
   "tournament_name": "",
   "rows": [
@@ -32,21 +32,9 @@
     },
     {
       "rank": 2,
-      "nick": "Vycka 1",
-      "time": "2.17.041",
-      "gap_prev": "+0.596",
-      "gap_leader": "+0.596",
-      "condition": "DRY",
-      "status": "OK",
-      "memorialized": false,
-      "memorial_badge": "ATMINIMUI",
-      "total_time": ""
-    },
-    {
-      "rank": 3,
       "nick": "Aivaras",
       "time": "2.17.730",
-      "gap_prev": "+0.689",
+      "gap_prev": "+1.285",
       "gap_leader": "+1.285",
       "condition": "DRY",
       "status": "OK",
@@ -55,7 +43,7 @@
       "total_time": ""
     },
     {
-      "rank": 4,
+      "rank": 3,
       "nick": "Paulius",
       "time": "2.29.614",
       "gap_prev": "+11.88",
@@ -67,7 +55,7 @@
       "total_time": ""
     },
     {
-      "rank": 5,
+      "rank": 4,
       "nick": "Vycka3",
       "time": "3.01.553",
       "gap_prev": "+31.94",
@@ -79,7 +67,7 @@
       "total_time": ""
     },
     {
-      "rank": 6,
+      "rank": 5,
       "nick": "Vycka2",
       "time": "3.10.042",
       "gap_prev": "+8.489",
