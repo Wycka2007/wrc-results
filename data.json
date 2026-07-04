@@ -1,8 +1,8 @@
 {
   "app": "Garažo scoreboardas",
   "version": "v3.0",
-  "generated_at": "2026-07-04T23:02:03Z",
-  "updated_local": "2026-07-05 02:02:03 EEST",
+  "generated_at": "2026-07-04T23:17:55Z",
+  "updated_local": "2026-07-05 02:17:55 EEST",
   "season_year": 2026,
   "track_id": 66,
   "title": "Rally Estonia / Vellavere",
@@ -13,7 +13,7 @@
   "condition": "DRY",
   "record_nick": "Arte",
   "record_time": "3.00.512",
-  "ok_rows": 18,
+  "ok_rows": 19,
   "all_rows": 20,
   "tournament_mode": false,
   "tournament_name": "",
@@ -247,13 +247,13 @@
       "total_time": ""
     },
     {
-      "rank": "",
+      "rank": 19,
       "nick": "Bebras666",
-      "time": "DSQ",
-      "gap_prev": "—",
-      "gap_leader": "—",
+      "time": "6.10.324",
+      "gap_prev": "+57.82",
+      "gap_leader": "+3:09.8",
       "condition": "DRY",
-      "status": "DSQ",
+      "status": "OK",
       "memorialized": false,
       "memorial_badge": "ATMINIMUI",
       "total_time": ""
