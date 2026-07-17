@@ -1,8 +1,8 @@
 {
   "app": "Garažo scoreboardas",
   "version": "v3.0.2",
-  "generated_at": "2026-07-17T22:14:22Z",
-  "updated_local": "2026-07-18 01:14:22 EEST",
+  "generated_at": "2026-07-17T22:24:51Z",
+  "updated_local": "2026-07-18 01:24:51 EEST",
   "season_year": 2026,
   "track_id": 297,
   "title": "Alaus turnyras",
@@ -13,8 +13,8 @@
   "condition": "DRY",
   "record_nick": "Vycka 1",
   "record_time": "3.47.494",
-  "ok_rows": 1,
-  "all_rows": 5,
+  "ok_rows": 2,
+  "all_rows": 4,
   "tournament_mode": true,
   "tournament_name": "Alaus turnyras",
   "rows": [
@@ -32,51 +32,39 @@
     },
     {
       "rank": 2,
-      "nick": "Bakas",
-      "time": "DNF",
-      "gap_prev": "3.53.302",
-      "gap_leader": "+5.808",
-      "condition": "2",
-      "status": "DNF",
-      "memorialized": false,
-      "memorial_badge": "ATMINIMUI",
-      "total_time": "3.53.302"
-    },
-    {
-      "rank": 3,
       "nick": "Žarnoldas",
       "time": "DNF",
       "gap_prev": "4.36.282",
       "gap_leader": "+48.79",
-      "condition": "3",
+      "condition": "2",
       "status": "DNF",
       "memorialized": false,
       "memorial_badge": "ATMINIMUI",
       "total_time": "4.36.282"
     },
     {
-      "rank": 4,
-      "nick": "As",
-      "time": "DNF",
-      "gap_prev": "5.31.538",
-      "gap_leader": "+1:44.0",
-      "condition": "4",
-      "status": "DNF",
-      "memorialized": false,
-      "memorial_badge": "ATMINIMUI",
-      "total_time": "5.31.538"
-    },
-    {
-      "rank": 5,
+      "rank": 3,
       "nick": "Mantviniukas",
       "time": "3.47.717",
       "gap_prev": "7.10.537",
       "gap_leader": "+3:23.0",
-      "condition": "5",
+      "condition": "3",
       "status": "OK",
       "memorialized": false,
       "memorial_badge": "ATMINIMUI",
       "total_time": "7.10.537"
+    },
+    {
+      "rank": 4,
+      "nick": "Bakas",
+      "time": "4.42.013",
+      "gap_prev": "8.35.315",
+      "gap_leader": "+4:47.8",
+      "condition": "4",
+      "status": "OK",
+      "memorialized": false,
+      "memorial_badge": "ATMINIMUI",
+      "total_time": "8.35.315"
     }
   ]
 }
