@@ -1,8 +1,8 @@
 {
   "app": "Garažo scoreboardas",
   "version": "v3.0.2",
-  "generated_at": "2026-07-17T21:52:51Z",
-  "updated_local": "2026-07-18 00:52:51 EEST",
+  "generated_at": "2026-07-17T21:57:02Z",
+  "updated_local": "2026-07-18 00:57:02 EEST",
   "season_year": 2026,
   "track_id": 309,
   "title": "Alaus turnyras",
@@ -13,7 +13,7 @@
   "condition": "DRY",
   "record_nick": "As",
   "record_time": "0.00.000",
-  "ok_rows": 1,
+  "ok_rows": 2,
   "all_rows": 5,
   "tournament_mode": true,
   "tournament_name": "Alaus turnyras",
@@ -44,7 +44,7 @@
     },
     {
       "rank": 3,
-      "nick": "Mantviniukas",
+      "nick": "Vycka 1",
       "time": "DNF",
       "gap_prev": "0.00.000",
       "gap_leader": "—",
@@ -56,15 +56,15 @@
     },
     {
       "rank": 4,
-      "nick": "Vycka 1",
-      "time": "DNF",
-      "gap_prev": "0.00.000",
-      "gap_leader": "—",
+      "nick": "Mantviniukas",
+      "time": "3.22.820",
+      "gap_prev": "3.22.820",
+      "gap_leader": "+3:22.8",
       "condition": "4",
-      "status": "DNF",
+      "status": "OK",
       "memorialized": false,
       "memorial_badge": "ATMINIMUI",
-      "total_time": "0.00.000"
+      "total_time": "3.22.820"
     },
     {
       "rank": 5,
