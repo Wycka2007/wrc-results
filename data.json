@@ -1,8 +1,8 @@
 {
   "app": "Garažo scoreboardas",
   "version": "v3.0.2",
-  "generated_at": "2026-07-17T23:03:30Z",
-  "updated_local": "2026-07-18 02:03:30 EEST",
+  "generated_at": "2026-07-17T23:05:51Z",
+  "updated_local": "2026-07-18 02:05:51 EEST",
   "season_year": 2026,
   "track_id": 311,
   "title": "Alaus turnyras",
@@ -58,13 +58,13 @@
       "rank": 4,
       "nick": "Žarnoldas",
       "time": "DNF",
-      "gap_prev": "13.30.821",
-      "gap_leader": "+3:05.1",
+      "gap_prev": "18.11.322",
+      "gap_leader": "+7:45.6",
       "condition": "4",
       "status": "DNF",
       "memorialized": false,
       "memorial_badge": "ATMINIMUI",
-      "total_time": "13.30.821"
+      "total_time": "18.11.322"
     }
   ]
 }
