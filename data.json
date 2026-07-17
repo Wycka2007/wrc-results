@@ -1,8 +1,8 @@
 {
   "app": "Garažo scoreboardas",
   "version": "v3.0.2",
-  "generated_at": "2026-07-17T21:24:29Z",
-  "updated_local": "2026-07-18 00:24:29 EEST",
+  "generated_at": "2026-07-17T21:25:11Z",
+  "updated_local": "2026-07-18 00:25:11 EEST",
   "season_year": 2026,
   "track_id": 66,
   "title": "Rally Estonia / Vellavere",
@@ -164,7 +164,7 @@
     },
     {
       "rank": 12,
-      "nick": "Arnoldas",
+      "nick": "Žarnoldas",
       "time": "3.49.224",
       "gap_prev": "+10.25",
       "gap_leader": "+48.71",
