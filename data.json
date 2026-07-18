@@ -1,8 +1,8 @@
 {
   "app": "Garažo scoreboardas",
   "version": "v3.0.2",
-  "generated_at": "2026-07-18T19:51:12Z",
-  "updated_local": "2026-07-18 22:51:12 EEST",
+  "generated_at": "2026-07-18T19:55:45Z",
+  "updated_local": "2026-07-18 22:55:45 EEST",
   "season_year": 2026,
   "track_id": 66,
   "title": "Rally Estonia / Vellavere",
@@ -164,10 +164,10 @@
     },
     {
       "rank": 12,
-      "nick": "Žarnoldas",
-      "time": "3.49.224",
-      "gap_prev": "+10.25",
-      "gap_leader": "+48.71",
+      "nick": "Žibas",
+      "time": "3.42.371",
+      "gap_prev": "+3.399",
+      "gap_leader": "+41.86",
       "condition": "DRY",
       "status": "OK",
       "memorialized": false,
@@ -176,6 +176,18 @@
     },
     {
       "rank": 13,
+      "nick": "Žarnoldas",
+      "time": "3.49.224",
+      "gap_prev": "+6.853",
+      "gap_leader": "+48.71",
+      "condition": "DRY",
+      "status": "OK",
+      "memorialized": false,
+      "memorial_badge": "ATMINIMUI",
+      "total_time": ""
+    },
+    {
+      "rank": 14,
       "nick": "Domas",
       "time": "3.55.384",
       "gap_prev": "+6.160",
@@ -187,22 +199,10 @@
       "total_time": ""
     },
     {
-      "rank": 14,
-      "nick": "Žibas",
-      "time": "3.55.618",
-      "gap_prev": "+0.234",
-      "gap_leader": "+55.11",
-      "condition": "DRY",
-      "status": "OK",
-      "memorialized": false,
-      "memorial_badge": "ATMINIMUI",
-      "total_time": ""
-    },
-    {
       "rank": 15,
       "nick": "Rencius",
       "time": "4.07.807",
-      "gap_prev": "+12.19",
+      "gap_prev": "+12.42",
       "gap_leader": "+1:07.3",
       "condition": "DRY",
       "status": "OK",
