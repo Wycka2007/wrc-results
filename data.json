@@ -1,8 +1,8 @@
 {
   "app": "Garažo scoreboardas",
   "version": "v3.0.2",
-  "generated_at": "2026-07-21T17:57:32Z",
-  "updated_local": "2026-07-21 20:57:32 EEST",
+  "generated_at": "2026-07-21T19:09:11Z",
+  "updated_local": "2026-07-21 22:09:11 EEST",
   "season_year": 2026,
   "track_id": 66,
   "title": "Rally Estonia / Vellavere",
@@ -13,8 +13,8 @@
   "condition": "DRY",
   "record_nick": "Arte",
   "record_time": "3.00.512",
-  "ok_rows": 20,
-  "all_rows": 21,
+  "ok_rows": 21,
+  "all_rows": 22,
   "tournament_mode": false,
   "tournament_name": "",
   "seasonal": true,
@@ -165,10 +165,10 @@
     },
     {
       "rank": 12,
-      "nick": "Žibas",
-      "time": "3.42.371",
-      "gap_prev": "+11.19",
-      "gap_leader": "+41.86",
+      "nick": "Seikis",
+      "time": "3.37.174",
+      "gap_prev": "+5.994",
+      "gap_leader": "+36.66",
       "condition": "DRY",
       "status": "OK",
       "memorialized": false,
@@ -177,6 +177,18 @@
     },
     {
       "rank": 13,
+      "nick": "Žibas",
+      "time": "3.42.371",
+      "gap_prev": "+5.197",
+      "gap_leader": "+41.86",
+      "condition": "DRY",
+      "status": "OK",
+      "memorialized": false,
+      "memorial_badge": "ATMINIMUI",
+      "total_time": ""
+    },
+    {
+      "rank": 14,
       "nick": "Žarnoldas",
       "time": "3.49.224",
       "gap_prev": "+6.853",
@@ -188,7 +200,7 @@
       "total_time": ""
     },
     {
-      "rank": 14,
+      "rank": 15,
       "nick": "Domas",
       "time": "3.55.384",
       "gap_prev": "+6.160",
@@ -200,7 +212,7 @@
       "total_time": ""
     },
     {
-      "rank": 15,
+      "rank": 16,
       "nick": "Rencius",
       "time": "4.07.807",
       "gap_prev": "+12.42",
@@ -212,7 +224,7 @@
       "total_time": ""
     },
     {
-      "rank": 16,
+      "rank": 17,
       "nick": "And_I",
       "time": "4.08.378",
       "gap_prev": "+0.571",
@@ -224,7 +236,7 @@
       "total_time": ""
     },
     {
-      "rank": 17,
+      "rank": 18,
       "nick": "Korne",
       "time": "5.00.078",
       "gap_prev": "+51.70",
@@ -236,7 +248,7 @@
       "total_time": ""
     },
     {
-      "rank": 18,
+      "rank": 19,
       "nick": "Minde",
       "time": "5.08.180",
       "gap_prev": "+8.102",
@@ -248,7 +260,7 @@
       "total_time": ""
     },
     {
-      "rank": 19,
+      "rank": 20,
       "nick": "Edga",
       "time": "5.12.506",
       "gap_prev": "+4.326",
@@ -260,7 +272,7 @@
       "total_time": ""
     },
     {
-      "rank": 20,
+      "rank": 21,
       "nick": "Bebras666",
       "time": "6.10.324",
       "gap_prev": "+57.82",
