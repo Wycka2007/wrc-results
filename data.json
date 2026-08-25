@@ -1,8 +1,8 @@
 {
   "app": "Garažo scoreboardas",
   "version": "v3.0.2",
-  "generated_at": "2026-08-25T19:13:47Z",
-  "updated_local": "2026-08-25 22:13:47 EEST",
+  "generated_at": "2026-08-25T19:18:00Z",
+  "updated_local": "2026-08-25 22:18:00 EEST",
   "season_year": 2026,
   "track_id": 66,
   "title": "Rally Estonia / Vellavere",
@@ -141,10 +141,10 @@
     },
     {
       "rank": 10,
-      "nick": "Vycka2",
-      "time": "3.18.205",
-      "gap_prev": "+1.818",
-      "gap_leader": "+19.34",
+      "nick": "Domas",
+      "time": "3.17.257",
+      "gap_prev": "+0.870",
+      "gap_leader": "+18.39",
       "condition": "DRY",
       "status": "OK",
       "memorialized": false,
@@ -153,6 +153,18 @@
     },
     {
       "rank": 11,
+      "nick": "Vycka2",
+      "time": "3.18.205",
+      "gap_prev": "+0.948",
+      "gap_leader": "+19.34",
+      "condition": "DRY",
+      "status": "OK",
+      "memorialized": false,
+      "memorial_badge": "ATMINIMUI",
+      "total_time": ""
+    },
+    {
+      "rank": 12,
       "nick": "Alfa",
       "time": "3.21.048",
       "gap_prev": "+2.843",
@@ -164,7 +176,7 @@
       "total_time": ""
     },
     {
-      "rank": 12,
+      "rank": 13,
       "nick": "Dovis",
       "time": "3.24.008",
       "gap_prev": "+2.960",
@@ -176,7 +188,7 @@
       "total_time": ""
     },
     {
-      "rank": 13,
+      "rank": 14,
       "nick": "Maniac",
       "time": "3.24.125",
       "gap_prev": "+0.117",
@@ -188,7 +200,7 @@
       "total_time": ""
     },
     {
-      "rank": 14,
+      "rank": 15,
       "nick": "Linas",
       "time": "3.24.860",
       "gap_prev": "+0.735",
@@ -200,22 +212,10 @@
       "total_time": ""
     },
     {
-      "rank": 15,
-      "nick": "Domas",
-      "time": "3.26.224",
-      "gap_prev": "+1.364",
-      "gap_leader": "+27.36",
-      "condition": "DRY",
-      "status": "OK",
-      "memorialized": false,
-      "memorial_badge": "ATMINIMUI",
-      "total_time": ""
-    },
-    {
       "rank": 16,
       "nick": "Žibas",
       "time": "3.42.371",
-      "gap_prev": "+16.15",
+      "gap_prev": "+17.51",
       "gap_leader": "+43.50",
       "condition": "DRY",
       "status": "OK",
