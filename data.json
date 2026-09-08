@@ -1,8 +1,8 @@
 {
   "app": "Garažo scoreboardas",
   "version": "v3.0.2",
-  "generated_at": "2026-09-07T20:56:06Z",
-  "updated_local": "2026-09-07 23:56:06 EEST",
+  "generated_at": "2026-09-08T18:55:16Z",
+  "updated_local": "2026-09-08 21:55:16 EEST",
   "season_year": 2026,
   "track_id": 66,
   "title": "Rally Estonia / Vellavere",
@@ -13,8 +13,8 @@
   "condition": "DRY",
   "record_nick": "Vycka 1",
   "record_time": "2.57.308",
-  "ok_rows": 25,
-  "all_rows": 26,
+  "ok_rows": 26,
+  "all_rows": 27,
   "tournament_mode": false,
   "tournament_name": "",
   "seasonal": true,
@@ -273,10 +273,10 @@
     },
     {
       "rank": 21,
-      "nick": "Minde",
-      "time": "5.08.180",
-      "gap_prev": "+36.16",
-      "gap_leader": "+2:10.9",
+      "nick": "Airinga 😈",
+      "time": "4.45.114",
+      "gap_prev": "+13.09",
+      "gap_leader": "+1:47.8",
       "condition": "DRY",
       "status": "OK",
       "memorialized": false,
@@ -285,6 +285,18 @@
     },
     {
       "rank": 22,
+      "nick": "Minde",
+      "time": "5.08.180",
+      "gap_prev": "+23.07",
+      "gap_leader": "+2:10.9",
+      "condition": "DRY",
+      "status": "OK",
+      "memorialized": false,
+      "memorial_badge": "ATMINIMUI",
+      "total_time": ""
+    },
+    {
+      "rank": 23,
       "nick": "Edga",
       "time": "5.12.506",
       "gap_prev": "+4.326",
@@ -296,7 +308,7 @@
       "total_time": ""
     },
     {
-      "rank": 23,
+      "rank": 24,
       "nick": "Inga",
       "time": "5.53.756",
       "gap_prev": "+41.25",
@@ -308,7 +320,7 @@
       "total_time": ""
     },
     {
-      "rank": 24,
+      "rank": 25,
       "nick": "Čiaginas",
       "time": "5.59.679",
       "gap_prev": "+5.923",
@@ -320,7 +332,7 @@
       "total_time": ""
     },
     {
-      "rank": 25,
+      "rank": 26,
       "nick": "Bebras666",
       "time": "6.10.324",
       "gap_prev": "+10.64",
