@@ -1,8 +1,8 @@
 {
   "app": "Garažo scoreboardas",
   "version": "v3.0.2",
-  "generated_at": "2026-09-25T21:41:47Z",
-  "updated_local": "2026-09-26 00:41:47 EEST",
+  "generated_at": "2026-09-25T21:50:26Z",
+  "updated_local": "2026-09-26 00:50:26 EEST",
   "season_year": 2026,
   "track_id": 66,
   "title": "Rally Estonia / Vellavere",
@@ -93,10 +93,10 @@
     },
     {
       "rank": 6,
-      "nick": "Seikis",
-      "time": "3.08.554",
-      "gap_prev": "+7.575",
-      "gap_leader": "+11.25",
+      "nick": "Vycka2",
+      "time": "3.07.525",
+      "gap_prev": "+6.546",
+      "gap_leader": "+10.22",
       "condition": "DRY",
       "status": "OK",
       "memorialized": false,
@@ -105,6 +105,18 @@
     },
     {
       "rank": 7,
+      "nick": "Seikis",
+      "time": "3.08.554",
+      "gap_prev": "+1.029",
+      "gap_leader": "+11.25",
+      "condition": "DRY",
+      "status": "OK",
+      "memorialized": false,
+      "memorial_badge": "ATMINIMUI",
+      "total_time": ""
+    },
+    {
+      "rank": 8,
       "nick": "Bakas",
       "time": "3.08.858",
       "gap_prev": "+0.304",
@@ -116,7 +128,7 @@
       "total_time": ""
     },
     {
-      "rank": 8,
+      "rank": 9,
       "nick": "Aivaras",
       "time": "3.09.790",
       "gap_prev": "+0.932",
@@ -128,7 +140,7 @@
       "total_time": ""
     },
     {
-      "rank": 9,
+      "rank": 10,
       "nick": "Maniac",
       "time": "3.12.265",
       "gap_prev": "+2.475",
@@ -140,22 +152,10 @@
       "total_time": ""
     },
     {
-      "rank": 10,
-      "nick": "Vycka2",
-      "time": "3.14.049",
-      "gap_prev": "+1.784",
-      "gap_leader": "+16.74",
-      "condition": "DRY",
-      "status": "OK",
-      "memorialized": false,
-      "memorial_badge": "ATMINIMUI",
-      "total_time": ""
-    },
-    {
       "rank": 11,
       "nick": "Domas",
       "time": "3.14.555",
-      "gap_prev": "+0.506",
+      "gap_prev": "+2.290",
       "gap_leader": "+17.25",
       "condition": "DRY",
       "status": "OK",
