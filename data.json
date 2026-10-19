@@ -1,8 +1,8 @@
 {
   "app": "Garažo scoreboardas",
   "version": "v3.0.2",
-  "generated_at": "2026-10-19T19:06:46Z",
-  "updated_local": "2026-10-19 22:06:46 EEST",
+  "generated_at": "2026-10-19T19:15:23Z",
+  "updated_local": "2026-10-19 22:15:23 EEST",
   "season_year": 2026,
   "track_id": 66,
   "title": "Rally Estonia / Vellavere",
@@ -177,10 +177,10 @@
     },
     {
       "rank": 13,
-      "nick": "Alfa",
-      "time": "3.21.048",
-      "gap_prev": "+4.661",
-      "gap_leader": "+23.74",
+      "nick": "Rabinas",
+      "time": "3.19.536",
+      "gap_prev": "+3.149",
+      "gap_leader": "+22.23",
       "condition": "DRY",
       "status": "OK",
       "memorialized": false,
@@ -189,6 +189,18 @@
     },
     {
       "rank": 14,
+      "nick": "Alfa",
+      "time": "3.21.048",
+      "gap_prev": "+1.512",
+      "gap_leader": "+23.74",
+      "condition": "DRY",
+      "status": "OK",
+      "memorialized": false,
+      "memorial_badge": "ATMINIMUI",
+      "total_time": ""
+    },
+    {
+      "rank": 15,
       "nick": "Artis",
       "time": "3.21.923",
       "gap_prev": "+0.875",
@@ -200,7 +212,7 @@
       "total_time": ""
     },
     {
-      "rank": 15,
+      "rank": 16,
       "nick": "Dovis",
       "time": "3.24.008",
       "gap_prev": "+2.085",
@@ -212,7 +224,7 @@
       "total_time": ""
     },
     {
-      "rank": 16,
+      "rank": 17,
       "nick": "Linas",
       "time": "3.24.860",
       "gap_prev": "+0.852",
@@ -224,7 +236,7 @@
       "total_time": ""
     },
     {
-      "rank": 17,
+      "rank": 18,
       "nick": "Žarnoldas",
       "time": "3.28.474",
       "gap_prev": "+3.614",
@@ -236,7 +248,7 @@
       "total_time": ""
     },
     {
-      "rank": 18,
+      "rank": 19,
       "nick": "Vaskis",
       "time": "3.31.432",
       "gap_prev": "+2.958",
@@ -248,7 +260,7 @@
       "total_time": ""
     },
     {
-      "rank": 19,
+      "rank": 20,
       "nick": "Žibas",
       "time": "3.42.371",
       "gap_prev": "+10.94",
@@ -260,22 +272,10 @@
       "total_time": ""
     },
     {
-      "rank": 20,
-      "nick": "Rabinas",
-      "time": "3.54.084",
-      "gap_prev": "+11.71",
-      "gap_leader": "+56.78",
-      "condition": "DRY",
-      "status": "OK",
-      "memorialized": false,
-      "memorial_badge": "ATMINIMUI",
-      "total_time": ""
-    },
-    {
       "rank": 21,
       "nick": "Airinga",
       "time": "4.01.392",
-      "gap_prev": "+7.308",
+      "gap_prev": "+19.02",
       "gap_leader": "+1:04.1",
       "condition": "DRY",
       "status": "OK",
