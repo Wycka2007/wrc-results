@@ -1,8 +1,8 @@
 {
   "app": "Garažo scoreboardas",
   "version": "v3.0.2",
-  "generated_at": "2026-11-07T20:50:16Z",
-  "updated_local": "2026-11-07 22:50:16 EET",
+  "generated_at": "2026-11-07T20:54:59Z",
+  "updated_local": "2026-11-07 22:54:59 EET",
   "season_year": 2026,
   "track_id": 66,
   "title": "Rally Estonia / Vellavere",
@@ -153,10 +153,10 @@
     },
     {
       "rank": 11,
-      "nick": "Maniac",
-      "time": "3.12.265",
-      "gap_prev": "+2.475",
-      "gap_leader": "+14.96",
+      "nick": "Linelis",
+      "time": "3.12.179",
+      "gap_prev": "+2.389",
+      "gap_leader": "+14.87",
       "condition": "DRY",
       "status": "OK",
       "memorialized": false,
@@ -165,6 +165,18 @@
     },
     {
       "rank": 12,
+      "nick": "Maniac",
+      "time": "3.12.265",
+      "gap_prev": "+0.086",
+      "gap_leader": "+14.96",
+      "condition": "DRY",
+      "status": "OK",
+      "memorialized": false,
+      "memorial_badge": "ATMINIMUI",
+      "total_time": ""
+    },
+    {
+      "rank": 13,
       "nick": "Artis",
       "time": "3.13.792",
       "gap_prev": "+1.527",
@@ -176,7 +188,7 @@
       "total_time": ""
     },
     {
-      "rank": 13,
+      "rank": 14,
       "nick": "Domas",
       "time": "3.14.555",
       "gap_prev": "+0.763",
@@ -188,7 +200,7 @@
       "total_time": ""
     },
     {
-      "rank": 14,
+      "rank": 15,
       "nick": "Matas",
       "time": "3.16.387",
       "gap_prev": "+1.832",
@@ -200,7 +212,7 @@
       "total_time": ""
     },
     {
-      "rank": 15,
+      "rank": 16,
       "nick": "Dovis",
       "time": "3.18.389",
       "gap_prev": "+2.002",
@@ -212,7 +224,7 @@
       "total_time": ""
     },
     {
-      "rank": 16,
+      "rank": 17,
       "nick": "Saulius",
       "time": "3.20.515",
       "gap_prev": "+2.126",
@@ -224,7 +236,7 @@
       "total_time": ""
     },
     {
-      "rank": 17,
+      "rank": 18,
       "nick": "Alfa",
       "time": "3.21.048",
       "gap_prev": "+0.533",
@@ -236,22 +248,10 @@
       "total_time": ""
     },
     {
-      "rank": 18,
-      "nick": "Linelis",
-      "time": "3.22.980",
-      "gap_prev": "+1.932",
-      "gap_leader": "+25.67",
-      "condition": "DRY",
-      "status": "OK",
-      "memorialized": false,
-      "memorial_badge": "ATMINIMUI",
-      "total_time": ""
-    },
-    {
       "rank": 19,
       "nick": "Linas",
       "time": "3.24.860",
-      "gap_prev": "+1.880",
+      "gap_prev": "+3.812",
       "gap_leader": "+27.55",
       "condition": "DRY",
       "status": "OK",
